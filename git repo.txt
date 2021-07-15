@@ -1,0 +1,5 @@
+git remote add origin /link....here/
+git add *
+git commit -m "add new repo"
+git push link_name
+
