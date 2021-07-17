@@ -164,8 +164,3 @@ input{
          width: 100%;
      }
 }
-@media screen and (max-width: 40px){
-   .headings,.logo{
-      width: 40%;
-    }
-}
