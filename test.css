@@ -1,0 +1,123 @@
+.wrapper > div{
+  border: 1px solid red;
+  height: 1200px;
+  width: 30%;
+  float:left;
+  box-sizing: border-box;
+  background: #ff6600;
+}
+h1{
+  text-align:centre;
+  margin-left:450px;
+}
+.wrapper{
+  width: 100%;
+  margin: 10;
+  padding: 0.5em;
+}
+.con{
+ background: #00ffff;
+ height: 1112px;
+ width: 80%;
+ margin: auto;
+ position: relative;
+ top: 35px;
+ color: blue;
+ padding: 0.5em;
+}
+.wrapper1{
+  border: 1px solid red;
+  height: 1200px;
+  width: 30%;
+  float:left;
+  box-sizing: border-box;
+  background: #ff6600;
+  margin-left: 50px;
+  margin-top: -8px;
+}
+.con1{
+ background: #00ffff;
+ height: 500px;
+ width: 80%;
+ margin: auto;
+ font-size: 15px;
+ position: relative;
+ top: 35px;
+ color: blue;
+ padding: 0.5em;
+}
+.con2{
+ background: #00ffff;
+ height: 580px;
+ width: 80%;
+ font-size: 15px;
+ margin: auto;
+ position: relative;
+ top: 50px;
+ color: blue;
+ padding: 0.5em;
+}
+.wrapper2{
+  border: 1px solid red;
+  height: 1200px;
+  width: 30%;
+  float:left;
+  box-sizing: border-box;
+  background: #ff6600;
+  margin-left: 50px;
+  margin-top: -8px;
+}
+.con3{
+ background: #00ffff;
+ height: 532px;
+ width: 40%;
+ margin-left: -1px;
+ position: relative;
+ top: -1px;
+ color: blue;
+ padding: 0.5em;
+}
+.con4{
+ background: #00ffff;
+ height: 532px;
+ width: 40%;
+ margin-left: 255px;
+ margin-right: 0px;
+ position: relative;
+ top: -550px;
+ color: blue;
+ padding: 0.5em;
+}
+.con5{
+ background: #00ffff;
+ height: 532px;
+ width: 40%;
+ margin-left: -1px;
+ 
+ position: relative;
+ top: -445px;
+ color: blue;
+ padding: 0.5em;
+}
+.con6{
+ background: #00ffff;
+ height: 532px;
+ width: 40%;
+ margin-left: 255px;
+ margin-right: 0px;
+ position: relative;
+ top: -992px;
+ color: blue;
+ padding: 0.5em;
+}
+.go-to{
+  width:20%;
+  height: 50px;
+  margin-left: 500;
+  backgound:green;
+}
+@media screen and (max-width: 768px){
+   .wrapper, .wrapper1, .wrapper2, .con,.con1,.con2,.con3,.con4,.con5,.con6{
+     width: 100%;
+}
+}
