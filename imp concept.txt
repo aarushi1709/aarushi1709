@@ -1,0 +1,27 @@
+<div class="wrapper">
+  <div class="box1">
+     
+  </div>
+  <div class="box1">
+     
+  </div>
+</div>
+
+
+css->
+body{
+  margin:0; //box margin default 0
+}
+.wrapper{
+  width:1000px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
+}
+.box1{
+   width: 45%;
+   border:1px solid black;
+   padding: 1em;
+   margin:1em; //to separate boxes
+   box-sizing: border-box;
+}

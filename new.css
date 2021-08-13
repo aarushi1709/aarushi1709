@@ -19,7 +19,7 @@ body{
 	font-size: 1.4em;
 	display: flex;
 	flex-direction: row;
-        position:sticky;
+        position:relative;
 }
 h1{
 	padding-left: 0.5em;
@@ -158,9 +158,4 @@ h2{
 input{
 	padding: 0.5em;
 	margin-top: 0.5em;
-}
-@media screen and (max-width: 768px){
-    .menu-items,.h2,.menu-items1,.title,.feedback,.nav,.navbar-items,.nav-items,.hero-img,.intro,.footer,.quote,.item-tile,.item-tile1{
-         width: 100%;
-     }
 }
